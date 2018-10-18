@@ -9,7 +9,7 @@
   <packaging>jar</packaging>
 
   <name>digital-twin</name>
-  <description></description>
+  <description>Arrowhead consumer and provider for asset tracking scenario</description>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -26,14 +26,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
+      <groupId>eu.arrowhead</groupId>
+      <artifactId>asset-tracking-library</artifactId>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 
@@ -45,6 +40,5 @@
       </plugin>
     </plugins>
   </build>
-
 
 </project>

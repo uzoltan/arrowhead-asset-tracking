@@ -22,3 +22,4 @@
 /.nb-gradle/
 
 *.mvn
+*/target/

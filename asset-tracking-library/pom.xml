@@ -9,7 +9,7 @@
   <packaging>jar</packaging>
 
   <name>asset-tracking-library</name>
-  <description></description>
+  <description>Common library module for the Arrowhead asset tracking demo</description>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -19,9 +19,10 @@
   </parent>
 
   <properties>
+    <mvn.compiler.version>3.8.0</mvn.compiler.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java.version>1.8</java.version>
+    <java.version>11</java.version>
   </properties>
 
   <dependencies>
@@ -33,24 +34,12 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <optional>true</optional>
     </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
-
 
 </project>

@@ -7,6 +7,7 @@
   <groupId>eu.arrowhead</groupId>
   <artifactId>arrowhead-asset-tracking</artifactId>
   <version>0.1.0</version>
+  <packaging>pom</packaging>
 
   <modules>
     <module>assembler-machine</module>
@@ -16,5 +17,25 @@
     <module>warehouse</module>
     <module>welding-machine</module>
   </modules>
+
+  <!--<properties>
+    <mvn.compiler.version>3.8.0</mvn.compiler.version>
+    <java.version>11</java.version>
+  </properties>
+
+  <build>
+    <defaultGoal>clean install</defaultGoal>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${mvn.compiler.version}</version>
+        <configuration>
+          <release>${java.version}</release>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>-->
 
 </project>
