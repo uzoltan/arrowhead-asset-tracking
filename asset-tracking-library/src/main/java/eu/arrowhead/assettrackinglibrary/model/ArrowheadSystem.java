@@ -20,4 +20,9 @@ public class ArrowheadSystem {
   private Integer port;
   private String authenticationInfo;
 
+  public ArrowheadSystem(String systemName, String address, Integer port) {
+    this.systemName = systemName;
+    this.address = address;
+    this.port = port;
+  }
 }
